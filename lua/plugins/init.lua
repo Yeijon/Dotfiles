@@ -65,6 +65,7 @@ require("lazy").setup({
   {
     'goolord/alpha-nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
+    cond = false,
     config = function()
       require("plugins.config.alpha-nvim")
     end
